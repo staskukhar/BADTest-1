@@ -3,10 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSequenceAnalyser.Lib", "NumberSequenceAnalyser\NumberSequenceAnalyser.Lib.csproj", "{0A1AB2F2-7584-42DB-9BD7-B978528D3E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumSequenceAnalyser.Console", "NumSequenceAnalyser.Console\NumSequenceAnalyser.Console.csproj", "{DC86CC1C-5C3D-4847-BD3A-C564F30B97F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumSequenceAnalyser.Tests", "NumSequenceAnalyser.Tests\NumSequenceAnalyser.Tests.csproj", "{4C9ED7D9-A6C1-43D5-8ADD-E2DD62375206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A1AB2F2-7584-42DB-9BD7-B978528D3E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1AB2F2-7584-42DB-9BD7-B978528D3E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1AB2F2-7584-42DB-9BD7-B978528D3E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1AB2F2-7584-42DB-9BD7-B978528D3E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC86CC1C-5C3D-4847-BD3A-C564F30B97F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC86CC1C-5C3D-4847-BD3A-C564F30B97F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC86CC1C-5C3D-4847-BD3A-C564F30B97F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC86CC1C-5C3D-4847-BD3A-C564F30B97F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9ED7D9-A6C1-43D5-8ADD-E2DD62375206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9ED7D9-A6C1-43D5-8ADD-E2DD62375206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9ED7D9-A6C1-43D5-8ADD-E2DD62375206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9ED7D9-A6C1-43D5-8ADD-E2DD62375206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
